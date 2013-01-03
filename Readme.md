@@ -13,7 +13,7 @@ support for upcoming sets maybe added.
 
 Return a set that is the [union][] of the input sets.
 
-[!union](http://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Venn0111.svg/200px-Venn0111.svg.png)
+![union](http://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Venn0111.svg/200px-Venn0111.svg.png)
 
 
 ```js
@@ -36,7 +36,7 @@ union([1, 2], [2, 3], [3, 4])
 
 Return a set that is the [intersection][] of the input sets.
 
-[!intersection](http://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Venn0001.svg/200px-Venn0001.svg.png)
+![intersection](http://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Venn0001.svg/200px-Venn0001.svg.png)
 
 ```js
 intersection()
@@ -59,7 +59,7 @@ intersection([1, "a"], ["a", 3], ["a"])
 
 Return a set that is the first set without elements of the remaining sets
 
-[!difference](http://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Venn0010.svg/200px-Venn0010.svg.png)
+![difference](http://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Venn0010.svg/200px-Venn0010.svg.png)
 
 ```js
 var difference = require("interset/difference")
