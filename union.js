@@ -10,6 +10,8 @@ function include(union, set) {
   return set.reduce(add, union)
 }
 
-module.exports = function union() {
+module.exports = function union(first, second, rest) {
+  if (!first) return []
+  if (!second) return first
   return slicer.call(arguments).reduce(include, [])
 }
