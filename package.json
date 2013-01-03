@@ -31,7 +31,7 @@
     "postinstall": "npm dedup"
   },
   "testling": {
-    "files": "test/index.js",
+    "files": "test/tap.js",
     "browsers": {
       "iexplore": [
         "9.0"

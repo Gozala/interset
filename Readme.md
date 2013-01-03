@@ -2,7 +2,7 @@
 
 [![Build Status](https://secure.travis-ci.org/Gozala/interset.png)](http://travis-ci.org/Gozala/interset)
 
-[![browser support](http://ci.testling.com/Gozala/interset.png)](http://ci.testling.com/Gozala/interset)
+[![Browser support](http://ci.testling.com/Gozala/interset.png)](http://ci.testling.com/Gozala/interset)
 
 Binary operations for logical sets in our case arrays, although in a future
 support for upcoming sets maybe added.
