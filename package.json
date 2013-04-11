@@ -27,8 +27,7 @@
     "test": "npm run test-node && npm run test-browser",
     "test-browser": "node ./node_modules/phantomify/bin/cmd.js ./test/common.js",
     "test-node": "node ./test/common.js",
-    "test-tap": "node ./test/tap.js",
-    "postinstall": "npm dedup"
+    "test-tap": "node ./test/tap.js"
   },
   "testling": {
     "files": "test/tap.js",
