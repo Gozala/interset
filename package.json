@@ -19,6 +19,7 @@
   "devDependencies": {
     "test": "~0.x.0",
     "phantomify": "~0.x.0",
+    "tape": "~0.1.5",
     "retape": "0.0.2"
   },
   "main": "./index.js",
@@ -58,6 +59,5 @@
     }
   ],
   "dependencies": {
-    "tape": "~0.1.5"
   }
 }
